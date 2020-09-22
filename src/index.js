@@ -3,10 +3,16 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import "./tailwind.css";
+import MyApp from './Components/MyApp.js';
+import Heade from './Components/Header.js';
+import Foote from './Components/Footer.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Heade/>
+    <MyApp />
+    <Foote/>
   </React.StrictMode>,
   document.getElementById('root')
 );
